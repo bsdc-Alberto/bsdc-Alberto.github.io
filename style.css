@@ -2,6 +2,12 @@ h1 {
 color: aqua;    
 }
 
+h2 {
+    font-size: 40px;
+    color: yellow;
+    background-color: black;
+}
+
 body {
     background-image: url("/images/gar34zw0k1l41.webp")
 }
