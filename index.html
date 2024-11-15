@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Hours Apartments</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    Alberto
-    <h1>This is H1</h1>
-    <h2>This is h2</h2>
-    <h3>This is h3</h3>
-    <script src="app.js"></script>
-  </body>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">After Hours Apartments</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Luxury Apartments Available 24/7</h2>
+            <p>Discover your next stay with After Hours Apartments.</p>
+            <a href="#properties" class="btn">View Listings</a>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties">
+        <h2>Available Properties</h2>
+        <div class="property-list">
+            <div class="property-card">
+                <img src="https://via.placeholder.com/400x250" alt="Apartment 1">
+                <h3>Cozy Downtown Studio</h3>
+                <p>Perfect for business travelers and couples. Close to city amenities.</p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="property-card">
+                <img src="">
+                <h3>Beachfront Escape</h3>
+                <p>Wake up to ocean views and a private balcony.</p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="property-card">
+                <img src="https://via.placeholder.com/400x250" alt="Apartment 3">
+                <h3>Modern Loft</h3>
+                <p>Spacious loft with all modern amenities, perfect for families.</p>
+                <button class="btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At After Hours Apartments, we offer luxury and comfort at unbeatable prices. Our team is dedicated to making your stay unforgettable, with properties available 24/7.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 After Hours Apartments. All rights reserved.</p>
+    </footer>
+</body>
 </html>
